@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		986C5FDF23D0D6F8006BC123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986C5FDE23D0D6F8006BC123 /* AppDelegate.swift */; };
+		986C5FE123D0D6F8006BC123 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986C5FE023D0D6F8006BC123 /* SceneDelegate.swift */; };
+		986C5FE323D0D6F8006BC123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986C5FE223D0D6F8006BC123 /* ViewController.swift */; };
+		986C5FE623D0D6F8006BC123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 986C5FE423D0D6F8006BC123 /* Main.storyboard */; };
+		986C5FE823D0D6FA006BC123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 986C5FE723D0D6FA006BC123 /* Assets.xcassets */; };
+		986C5FEB23D0D6FA006BC123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 986C5FE923D0D6FA006BC123 /* LaunchScreen.storyboard */; };
+		986C5FF623D0D6FA006BC123 /* Dados2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986C5FF523D0D6FA006BC123 /* Dados2020Tests.swift */; };
+		986C600123D0D6FA006BC123 /* Dados2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986C600023D0D6FA006BC123 /* Dados2020UITests.swift */; };
+		986C600F23D0D743006BC123 /* sonido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 986C600E23D0D743006BC123 /* sonido.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		986C5FF223D0D6FA006BC123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 986C5FD323D0D6F8006BC123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 986C5FDA23D0D6F8006BC123;
+			remoteInfo = Dados2020;
+		};
+		986C5FFD23D0D6FA006BC123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 986C5FD323D0D6F8006BC123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 986C5FDA23D0D6F8006BC123;
+			remoteInfo = Dados2020;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		986C5FDB23D0D6F8006BC123 /* Dados2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dados2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		986C5FDE23D0D6F8006BC123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		986C5FE023D0D6F8006BC123 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		986C5FE223D0D6F8006BC123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		986C5FE523D0D6F8006BC123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		986C5FE723D0D6FA006BC123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		986C5FEA23D0D6FA006BC123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		986C5FEC23D0D6FA006BC123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		986C5FF123D0D6FA006BC123 /* Dados2020Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dados2020Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		986C5FF523D0D6FA006BC123 /* Dados2020Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados2020Tests.swift; sourceTree = "<group>"; };
+		986C5FF723D0D6FA006BC123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		986C5FFC23D0D6FA006BC123 /* Dados2020UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dados2020UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		986C600023D0D6FA006BC123 /* Dados2020UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados2020UITests.swift; sourceTree = "<group>"; };
+		986C600223D0D6FA006BC123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		986C600E23D0D743006BC123 /* sonido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sonido.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		986C5FD823D0D6F8006BC123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986C5FEE23D0D6FA006BC123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986C5FF923D0D6FA006BC123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		986C5FD223D0D6F8006BC123 = {
+			isa = PBXGroup;
+			children = (
+				986C5FDD23D0D6F8006BC123 /* Dados2020 */,
+				986C5FF423D0D6FA006BC123 /* Dados2020Tests */,
+				986C5FFF23D0D6FA006BC123 /* Dados2020UITests */,
+				986C5FDC23D0D6F8006BC123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		986C5FDC23D0D6F8006BC123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				986C5FDB23D0D6F8006BC123 /* Dados2020.app */,
+				986C5FF123D0D6FA006BC123 /* Dados2020Tests.xctest */,
+				986C5FFC23D0D6FA006BC123 /* Dados2020UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		986C5FDD23D0D6F8006BC123 /* Dados2020 */ = {
+			isa = PBXGroup;
+			children = (
+				986C600E23D0D743006BC123 /* sonido.mp3 */,
+				986C5FDE23D0D6F8006BC123 /* AppDelegate.swift */,
+				986C5FE023D0D6F8006BC123 /* SceneDelegate.swift */,
+				986C5FE223D0D6F8006BC123 /* ViewController.swift */,
+				986C5FE423D0D6F8006BC123 /* Main.storyboard */,
+				986C5FE723D0D6FA006BC123 /* Assets.xcassets */,
+				986C5FE923D0D6FA006BC123 /* LaunchScreen.storyboard */,
+				986C5FEC23D0D6FA006BC123 /* Info.plist */,
+			);
+			path = Dados2020;
+			sourceTree = "<group>";
+		};
+		986C5FF423D0D6FA006BC123 /* Dados2020Tests */ = {
+			isa = PBXGroup;
+			children = (
+				986C5FF523D0D6FA006BC123 /* Dados2020Tests.swift */,
+				986C5FF723D0D6FA006BC123 /* Info.plist */,
+			);
+			path = Dados2020Tests;
+			sourceTree = "<group>";
+		};
+		986C5FFF23D0D6FA006BC123 /* Dados2020UITests */ = {
+			isa = PBXGroup;
+			children = (
+				986C600023D0D6FA006BC123 /* Dados2020UITests.swift */,
+				986C600223D0D6FA006BC123 /* Info.plist */,
+			);
+			path = Dados2020UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		986C5FDA23D0D6F8006BC123 /* Dados2020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986C600523D0D6FA006BC123 /* Build configuration list for PBXNativeTarget "Dados2020" */;
+			buildPhases = (
+				986C5FD723D0D6F8006BC123 /* Sources */,
+				986C5FD823D0D6F8006BC123 /* Frameworks */,
+				986C5FD923D0D6F8006BC123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dados2020;
+			productName = Dados2020;
+			productReference = 986C5FDB23D0D6F8006BC123 /* Dados2020.app */;
+			productType = "com.apple.product-type.application";
+		};
+		986C5FF023D0D6FA006BC123 /* Dados2020Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986C600823D0D6FA006BC123 /* Build configuration list for PBXNativeTarget "Dados2020Tests" */;
+			buildPhases = (
+				986C5FED23D0D6FA006BC123 /* Sources */,
+				986C5FEE23D0D6FA006BC123 /* Frameworks */,
+				986C5FEF23D0D6FA006BC123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				986C5FF323D0D6FA006BC123 /* PBXTargetDependency */,
+			);
+			name = Dados2020Tests;
+			productName = Dados2020Tests;
+			productReference = 986C5FF123D0D6FA006BC123 /* Dados2020Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		986C5FFB23D0D6FA006BC123 /* Dados2020UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986C600B23D0D6FA006BC123 /* Build configuration list for PBXNativeTarget "Dados2020UITests" */;
+			buildPhases = (
+				986C5FF823D0D6FA006BC123 /* Sources */,
+				986C5FF923D0D6FA006BC123 /* Frameworks */,
+				986C5FFA23D0D6FA006BC123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				986C5FFE23D0D6FA006BC123 /* PBXTargetDependency */,
+			);
+			name = Dados2020UITests;
+			productName = Dados2020UITests;
+			productReference = 986C5FFC23D0D6FA006BC123 /* Dados2020UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		986C5FD323D0D6F8006BC123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = PacoPul;
+				TargetAttributes = {
+					986C5FDA23D0D6F8006BC123 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					986C5FF023D0D6FA006BC123 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 986C5FDA23D0D6F8006BC123;
+					};
+					986C5FFB23D0D6FA006BC123 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 986C5FDA23D0D6F8006BC123;
+					};
+				};
+			};
+			buildConfigurationList = 986C5FD623D0D6F8006BC123 /* Build configuration list for PBXProject "Dados2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 986C5FD223D0D6F8006BC123;
+			productRefGroup = 986C5FDC23D0D6F8006BC123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				986C5FDA23D0D6F8006BC123 /* Dados2020 */,
+				986C5FF023D0D6FA006BC123 /* Dados2020Tests */,
+				986C5FFB23D0D6FA006BC123 /* Dados2020UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		986C5FD923D0D6F8006BC123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986C600F23D0D743006BC123 /* sonido.mp3 in Resources */,
+				986C5FEB23D0D6FA006BC123 /* LaunchScreen.storyboard in Resources */,
+				986C5FE823D0D6FA006BC123 /* Assets.xcassets in Resources */,
+				986C5FE623D0D6F8006BC123 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986C5FEF23D0D6FA006BC123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986C5FFA23D0D6FA006BC123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		986C5FD723D0D6F8006BC123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986C5FE323D0D6F8006BC123 /* ViewController.swift in Sources */,
+				986C5FDF23D0D6F8006BC123 /* AppDelegate.swift in Sources */,
+				986C5FE123D0D6F8006BC123 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986C5FED23D0D6FA006BC123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986C5FF623D0D6FA006BC123 /* Dados2020Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986C5FF823D0D6FA006BC123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986C600123D0D6FA006BC123 /* Dados2020UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		986C5FF323D0D6FA006BC123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 986C5FDA23D0D6F8006BC123 /* Dados2020 */;
+			targetProxy = 986C5FF223D0D6FA006BC123 /* PBXContainerItemProxy */;
+		};
+		986C5FFE23D0D6FA006BC123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 986C5FDA23D0D6F8006BC123 /* Dados2020 */;
+			targetProxy = 986C5FFD23D0D6FA006BC123 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		986C5FE423D0D6F8006BC123 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				986C5FE523D0D6F8006BC123 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		986C5FE923D0D6FA006BC123 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				986C5FEA23D0D6FA006BC123 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		986C600323D0D6FA006BC123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		986C600423D0D6FA006BC123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		986C600623D0D6FA006BC123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46338EWPYY;
+				INFOPLIST_FILE = Dados2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.Dados2020;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		986C600723D0D6FA006BC123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46338EWPYY;
+				INFOPLIST_FILE = Dados2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.Dados2020;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		986C600923D0D6FA006BC123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46338EWPYY;
+				INFOPLIST_FILE = Dados2020Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.Dados2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dados2020.app/Dados2020";
+			};
+			name = Debug;
+		};
+		986C600A23D0D6FA006BC123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46338EWPYY;
+				INFOPLIST_FILE = Dados2020Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.Dados2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dados2020.app/Dados2020";
+			};
+			name = Release;
+		};
+		986C600C23D0D6FA006BC123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46338EWPYY;
+				INFOPLIST_FILE = Dados2020UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.Dados2020UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dados2020;
+			};
+			name = Debug;
+		};
+		986C600D23D0D6FA006BC123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46338EWPYY;
+				INFOPLIST_FILE = Dados2020UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.Dados2020UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dados2020;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		986C5FD623D0D6F8006BC123 /* Build configuration list for PBXProject "Dados2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986C600323D0D6FA006BC123 /* Debug */,
+				986C600423D0D6FA006BC123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986C600523D0D6FA006BC123 /* Build configuration list for PBXNativeTarget "Dados2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986C600623D0D6FA006BC123 /* Debug */,
+				986C600723D0D6FA006BC123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986C600823D0D6FA006BC123 /* Build configuration list for PBXNativeTarget "Dados2020Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986C600923D0D6FA006BC123 /* Debug */,
+				986C600A23D0D6FA006BC123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986C600B23D0D6FA006BC123 /* Build configuration list for PBXNativeTarget "Dados2020UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986C600C23D0D6FA006BC123 /* Debug */,
+				986C600D23D0D6FA006BC123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 986C5FD323D0D6F8006BC123 /* Project object */;
+}
